@@ -57,9 +57,5 @@ public class Merge_Two_Sorted_List {
         ListNode result1 = mergeTwoLists(g,z);
         result1.display();
 
-
-
-
-
     }
 }
