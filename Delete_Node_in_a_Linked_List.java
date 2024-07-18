@@ -1,7 +1,7 @@
 public class Delete_Node_in_a_Linked_List {
     public static void deleteNode(ListNode node) {
         ListNode prev = node.next;
-        while (prev!= null ){
+        while (prev != null ){
             node.val = prev.val;
             node.next = prev.next;
             node = node.next;
