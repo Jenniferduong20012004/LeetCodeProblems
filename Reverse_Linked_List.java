@@ -17,7 +17,6 @@ public class Reverse_Linked_List {
             node = node.next;
         }
         return result;
-
     }
     public static void main (String [] args){
         ListNode l = new ListNode(3);
@@ -40,6 +39,6 @@ public class Reverse_Linked_List {
         ListNode d = new ListNode(309821,s);
         ListNode f = new ListNode(400000,d);
         ListNode g = new ListNode(4000001,f);
-        ListNode result1 = reverseList(f);
+        ListNode result1 = reverseList(g);
         result1.display();    }
 }
