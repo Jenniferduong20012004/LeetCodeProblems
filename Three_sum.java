@@ -14,8 +14,6 @@ public class Three_sum {
         int i = (low - 1);
 
         for (int j = low; j <= high - 1; j++) {
-
-            // If current element is smaller than the pivot
             if (arr[j] < pivot) {
 
                 // Increment index of smaller element
