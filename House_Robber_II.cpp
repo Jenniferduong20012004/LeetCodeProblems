@@ -38,7 +38,7 @@ using namespace std;
             return nums[0];
         }
         vector <vector <int>> m (nums.size(), vector<int>(2, INT_MIN));
-        return max (tinh (nums, 0, 1, m), tinh (nums, 1,0,m));
+        return max (tinh (nums, 0, 1, m), nums[0]+tinh (nums, 1,2,m));
 
     }
 int main()
